@@ -1,0 +1,1 @@
+ sudo kubeadm init --image-repository registry.cn-hangzhou.aliyuncs.com/google_containers --apiserver-advertise-address=172.17.96.78 --cri-socket=unix:///var/run/cri-dockerd.sock --control-plane-endpoint=k8s-master --service-cidr=10.96.0.0/16 --pod-network-cidr=10.244.0.0/16
