@@ -21,7 +21,7 @@ else
     exit 1
 fi
 
-
+# $ curl -fsSL https://get.docker.com/ | sh
 usermod -aG docker $USER
 newgrp docker
 
